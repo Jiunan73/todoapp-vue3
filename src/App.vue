@@ -15,11 +15,13 @@ const addToDoItem = () => {
     }
     ToDoItems.unshift(item)
     ToDoItem.value = ""
+
   }
 }
 
 const removeItem = (id) => {
-    console.log('test')
+    console.log('test') 
+    
   const index = ToDoItems.findIndex((ToDoItem) => {
     return ToDoItem.id === id
   })
